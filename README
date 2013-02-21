@@ -1,0 +1,9 @@
+This code was inspired by a StackOverflow question:
+
+http://stackoverflow.com/questions/13210827/activity-and-intent-service-communication-broken-after-screen-rotate/14993420#14993420
+
+It still contains at least one major hack: random number generation completely hangs the IntentService daemon thread.  I was trying to solve the problem while changing as little as possible.
+
+Just FYA.
+
+-blake
